@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.banner img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.details .yield-details li {
+  list-style-image: url("cutleryy.png");
+}
+
+.details .prep {
+  display: flex;
+  margin-right: 20px;
+}
+.cook,
+.total {
+  display: flex;
+  margin-left: 20px;
+}
+.fa-clock {
+  margin-right: 10px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.yield-details p {
+  color: rgb(255, 163, 25);
+  margin-left: 26px;
+}
+
+/* end Details*/
+.instruction {
+  width: 80%;
+}
+main .number {
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+  left: 5px;
+  top: 30px;
+  color: #fff;
+  background-color: rgb(248, 153, 28);
+  border-radius: 10px;
+}
+.text {
+  position: relative;
+  left: 60px;
+  text-align: justify;
+  width: 60px;
+  font-size: 15px;
+}
+footer p{
+  color: #ccc;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+
+/*media queries*/
+@media (min-width: 470px) {
+  .yield li,
+  p {
+    margin-left: 5px;
+  }
+  .yield {
+    margin-bottom: 25px;
+  }
+  .cook,
+  .total {
+    margin-left: -1px;
+    margin-top: 25px;
+  }
+  .details {
+    float: right;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 20px 4px #ccc;
+  }
+
+  /* content */
+}
+
+@media (min-width: 381px) and (max-width: 470px) {
+  .cook,
+  .total {
+    float: right;
+    position: relative;
+    top: -49px;
+  }
+  .details {
+    margin-bottom: 30px;
+  }
+  .cook {
+    position: relative;
+    right: 115px;
+  }
+  .total {
+    position: relative;
+    left: 142px;
+  }
+  .details .yield-details li,
+  p {
+    font-size: 15px;
+  }
+  .details span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .details .yield-details li,
+  p {
+    font-size: 13px;
+  }
+  .details span {
+    font-size: 13px;
+  }
+  .yield{
+    margin-left: 24px;
+  }
+  .prep{
+    margin-left: 20px;
+    {
+  
+}
